@@ -26,7 +26,7 @@ gethui(SWV2)
 
 Frame.Parent = SWV2
 Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Frame.BackgroundTransparency = 0.400
+Frame.BackgroundTransparency = 1
 Frame.BorderSizePixel = 0
 Frame.Size = UDim2.new(1, 0, 1, 0)
 Frame.Visible = false
@@ -42,7 +42,6 @@ ImageLabel.Parent = Executor
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Size = UDim2.new(0, 99, 0, 34)
 ImageLabel.Image = "rbxassetid://12920669810"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
