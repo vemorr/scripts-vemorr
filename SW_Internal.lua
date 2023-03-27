@@ -1,6 +1,6 @@
-if isfile("ScriptWareInternal.lua") then
+if isfile("SW_Internal.lua") then
 	else
-	writefile("ScriptWareInternal.lua","") -- opens last script
+	writefile("SW_Internal.lua","") -- opens last script
 	end
 
 local SWV2 = Instance.new("ScreenGui")
@@ -320,7 +320,7 @@ local function DPWWV_fake_script() -- Frame.LocalScript
 
 	function onKeyPress(inputObject, gameProcessedEvent)
 		if not gameProcessedEvent then
-			if inputObject.KeyCode == Enum.KeyCode.Insert  then
+			if inputObject.KeyCode == Enum.KeyCode.Return  then
 				script.Parent.Visible = not script.Parent.Visible
 			end
 		end
