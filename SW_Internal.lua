@@ -137,8 +137,8 @@ Source.ClearTextOnFocus = false
 Source.Font = Enum.Font.Code
 Source.MultiLine = true
 Source.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
-Source.Text = readfile("ScriptWareInternal.lua")
-Source.TextColor3 = Color3.fromRGB(255, 255, 255)
+Source.Text = readfile("SW_Internal.lua")
+Source.TextColor3 = Color3.fromRGB(34, 34, 34)
 Source.TextSize = 15.000
 Source.TextStrokeTransparency = 0.700
 Source.TextWrapped = true
@@ -174,8 +174,8 @@ local function GXHNHBA_fake_script() -- TextButton.LocalScript
 		script.Parent.BackgroundColor3 = Color3.fromRGB(50,50,50)
 		wait(0.1)
 		script.Parent.BackgroundColor3 = Color3.fromRGB(40,40,40)
-                writefile("ScriptWareInternal.lua",Source.Text)
-		dofile("ScriptWareInternal.lua")
+                writefile("SW_Internal.lua",Source.Text)
+		dofile("SW_Internal.lua")
 	end)
 end
 coroutine.wrap(GXHNHBA_fake_script)()
@@ -320,7 +320,7 @@ local function DPWWV_fake_script() -- Frame.LocalScript
 
 	function onKeyPress(inputObject, gameProcessedEvent)
 		if not gameProcessedEvent then
-			if inputObject.KeyCode == Enum.KeyCode.Return  then
+			if inputObject.KeyCode == Enum.KeyCode.Delete  then
 				script.Parent.Visible = not script.Parent.Visible
 			end
 		end
@@ -331,5 +331,5 @@ coroutine.wrap(DPWWV_fake_script)()
 
 
 while wait(1) do
-writefile("ScriptWareInternal.lua",Source.Text)
+writefile("SW_Internal.lua",Source.Text)
 end
