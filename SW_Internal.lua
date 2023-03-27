@@ -43,7 +43,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Size = UDim2.new(0, 99, 0, 34)
-ImageLabel.Image = "rbxassetid://12920669829"
+ImageLabel.Image = "rbxassetid://12920669810"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 Frame_2.Parent = Executor
