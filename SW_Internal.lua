@@ -40,14 +40,14 @@ Executor.Size = UDim2.new(0, 700, 0, 421)
 
 ImageLabel.Parent = Executor
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Image = "rbxassetid://12920669810"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 Frame_2.Parent = Executor
 Frame_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Frame_2.BackgroundTransparency = 1.000
+Frame_2.BackgroundTransparency = 1
 Frame_2.BorderSizePixel = 0
 Frame_2.ClipsDescendants = true
 Frame_2.Position = UDim2.new(0.00571428565, 0, 0.0807600915, 0)
@@ -135,7 +135,7 @@ Source.ZIndex = 3
 Source.ClearTextOnFocus = false
 Source.Font = Enum.Font.Code
 Source.MultiLine = true
-Source.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+Source.PlaceholderColor3 = Color3.fromRGB(4, 34, 34)
 Source.Text = readfile("SW_Internal.lua")
 Source.TextColor3 = Color3.fromRGB(34, 34, 34)
 Source.TextSize = 15.000
@@ -146,7 +146,7 @@ Source.TextYAlignment = Enum.TextYAlignment.Top
 
 ImageLabel_2.Parent = Frame
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ImageLabel_2.BackgroundTransparency = 0.400
+ImageLabel_2.BackgroundTransparency = 1
 ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel_2.BorderSizePixel = 0
 ImageLabel_2.Position = UDim2.new(0, 0, 0, -35)
